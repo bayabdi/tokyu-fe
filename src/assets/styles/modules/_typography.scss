@@ -1,0 +1,170 @@
+@use './variables-scss' as v;
+
+.v-application {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: var(--font-size__default);
+  font-weight: var(--font-weight__regular);
+  color: var(--color__black) !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+label {
+  font-weight: var(--font-weight__light) !important;
+}
+
+*[class*="text-extra"] {
+  font-size: var(--font-size__extra) !important;
+}
+*[class*="text-m-max"] {
+  font-size: var(--font-size__m-max) !important;
+}
+*[class*="text-max"] {
+  font-size: var(--font-size__max) !important;
+}
+*[class*="text-m-huge"] {
+  font-size: var(--font-size__m-huge) !important;
+}
+*[class*="text-x-huge"] {
+  font-size: var(--font-size__huge) !important;
+}
+*[class*="text-huge"] {
+  font-size: var(--font-size__huge) !important;
+}
+*[class*="text-x-large"] {
+  font-size: var(--font-size__x-large) !important;
+}
+*[class*="text-large"] {
+  font-size: var(--font-size__large) !important;
+}
+*[class*="text-x-heading"] {
+  font-size: var(--font-size__x-heading) !important;
+}
+*[class*="text-m-heading"] {
+  font-size: var(--font-size__m-heading) !important;
+}
+*[class*="text-heading"] {
+  font-size: var(--font-size__heading) !important;
+}
+*[class*="text-title"] {
+  font-size: var(--font-size__title) !important;
+}
+*[class*="text-sub-title"] {
+  font-size: var(--font-size__sub-title) !important;
+}
+*[class*="text-medium"] {
+  font-size: var(--font-size__medium) !important;
+}
+*[class*="text-normal"] {
+  font-size: var(--font-size__default) !important;
+}
+*[class*="text-small"] {
+  font-size: var(--font-size__small) !important;
+}
+*[class*="text-x-small"] {
+  font-size: var(--font-size__x-small) !important;
+}
+
+*[class*="--w-light"] {
+  font-weight: var(--font-weight__light) !important;
+}
+*[class*="--w-regular"] {
+  font-weight: var(--font-weight__regular) !important;
+}
+*[class*="--w-medium"] {
+  font-weight: var(--font-weight__medium) !important;
+}
+*[class*="--w-bold"] {
+  font-weight: var(--font-weight__bold) !important;
+}
+
+*[class*="--c-black"] {
+  color: var(--color__black) !important;
+}
+*[class*="--c-ue-red"] {
+  color: var(--color__ue-red) !important;
+}
+*[class*="--c-bg"] {
+  color: var(--color__black-gray) !important;
+}
+*[class*="--c-x-dark"] {
+  color: var(--color__x-dark) !important;
+}
+*[class*="--c-dark"] {
+  color: var(--color__dark) !important;
+}
+*[class*="--c-dark-gray"] {
+  color: var(--color__dark-gray) !important;
+}
+*[class*="--c-medium-gray"] {
+  color: var(--color__medium-gray) !important;
+}
+*[class*="--c-gray"] {
+  color: var(--color__gray) !important;
+}
+*[class*="--c-light-gray"] {
+  color: var(--color__light-gray) !important;
+}
+*[class*="--c-b5-gray"] {
+  color: var(--color__b5-gray) !important;
+}
+*[class*="--c-prm"] {
+  color: var(--color__primary) !important;
+}
+*[class*="--c-tertiary"] {
+  color: var(--color__tertiary) !important;
+}
+*[class*="--c-white"] {
+  color: var(--color__white) !important;
+}
+*[class*="--c-red"] {
+  color: var(--color__red) !important;
+}
+*[class*="--c-pink"] {
+  color: var(--color__pink) !important;
+}
+*[class*="--c-dark-red"] {
+  color: var(--color__dark-red) !important;
+}
+*[class*="--c-super-dark-red"] {
+  color: var(--color__super-dark-red) !important;
+}
+*[class*="--c-gg"] {
+  color: var(--color__granite-gray) !important;
+}
+*[class*="--c-fda-yellow"] {
+  color: var(--color__fda-yellow) !important;
+}
+*[class*="--c-d-yellow"] {
+  color: var(--color__dark-yellow) !important;
+}
+*[class*="--c-smoke"] {
+  color: var(--color__smoke) !important;
+}
+*[class*="--c-dark-orange"] {
+  color: var(--color__dark-orange) !important;
+}
+*[class*="--c-ms"] {
+  color: var(--color__mine_shaft) !important;
+}
+*[class*="font-helvetica"] {
+  font-family: Helvetica, sans-serif !important;
+}
+
+.line-height-1 {
+  line-height: 1 !important;
+}
+
+*[class*="line--"] {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@for $i from 1 through 5 {
+  .line--#{$i} {
+    -webkit-line-clamp: #{$i};
+  }
+}

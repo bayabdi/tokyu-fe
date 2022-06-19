@@ -1,0 +1,88 @@
+@import "variables-scss";
+
+.v-application {
+  max-width: var(--width__screen);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color__white);
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  footer {
+    margin-top: auto;
+    flex-shrink: 0;
+  }
+}
+
+.t-container {
+  max-width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-header {
+  position: relative;
+  height: 290px;
+  color: var(--color__black) !important;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba($color__white, 0.3) 50%,
+      rgba($color__primary, 0.8) 80%,
+      $color__primary 100%
+    );
+  }
+  &__content {
+    margin-top: 40px;
+    z-index: 2;
+    display: inline-block;
+    svg {
+      width: 240px;
+      height: 60px;
+    }
+  }
+  &__content.--home {
+    margin-top: var(--height__header);
+  }
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-child-center {
+  display: table;
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.pa-2px {
+  padding: 2px!important;
+}
+
+.my-2px {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.min-width-300px {
+  min-width: 300px;
+}

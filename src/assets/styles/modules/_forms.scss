@@ -1,0 +1,124 @@
+.center-input {
+  input {
+    text-align: center !important;
+  }
+}
+
+// for all radio-button labels by default
+.v-radio {
+  .v-label {
+    margin-top: -2px;
+    font-weight: var(--font-weight__regular) !important;
+  }
+}
+
+.fixed-width {
+  max-width: 116px !important;
+  min-width: 116px !important;
+  &--medium {
+    max-width: 91px !important;
+    min-width: 91px !important;
+  }
+}
+
+.white-checkbox {
+  &.v-input--checkbox {
+    .v-input__slot {
+      display: inline-block;
+      * {
+        color: var(--color__white) !important;
+      }
+      .v-input--selection-controls__input {
+        transform: translateY(5px);
+        i {
+          font-size: var(--font-size__huge);
+        }
+      }
+    }
+  }
+}
+
+.weekend-color-date {
+  td {
+    &:nth-child(1) .v-btn:not(.v-btn--disabled):not(.v-btn--active),
+    &:nth-child(7) .v-btn:not(.v-btn--disabled):not(.v-btn--active) {
+      .v-btn__content {
+        color: var(--color__red) !important;
+      }
+    }
+  }
+}
+
+.v-input.error--text .v-input__slot {
+  border-color: var(--color__red) !important;
+}
+
+.horizontal-inputs {
+  justify-content: space-between;
+  display: flex;
+  .v-text-field {
+    margin-top: 8px!important;
+  }
+  .width-45pc-min-65px {
+    width: 45%;
+    min-width: 65px;
+  }
+  .width-45pc-min-40px {
+    width: 45%;
+    min-width: 40px;
+  }
+  .width-70pc-min-60px {
+    width: 70%;
+    min-width: 60px;
+  }
+  .item {
+    margin: 2em .7em;
+  }
+  .item-extra {
+    margin: 2em .5em;
+  }
+  .v-icon.v-icon {
+    font-size: 20px;
+  }
+  .v-text-field.v-text-field--enclosed:not(.v-text-field--rounded) > .v-input__control > .v-input__slot {
+    padding: 0 10px;
+  }
+  .v-text-field .v-input__append-inner {
+    padding-left: 0!important;
+  }
+  .one-error {
+    .error--text {
+      position: absolute;
+      width: 50%;
+    }
+  }
+}
+
+.select-align-center {
+  .v-select__selection--comma {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.color-picker-field {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+}
+
+.multiple-select-min-height-75 {
+  .v-input__slot {
+    min-height: 75px!important;
+  }
+}
+
+.normal-label {
+  .v-label {
+    font-size: var(--font-size__title) !important;
+    margin-top: -2px;
+    font-weight: var(--font-weight__medium) !important;
+  }
+}

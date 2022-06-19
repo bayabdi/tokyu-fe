@@ -1,0 +1,79 @@
+.border-top-main {
+    border-top: solid 1px var(--color__dark-smoke);
+}
+
+.border-medium {
+    border: solid 1px;
+}
+.border-medium-b {
+    border-bottom: solid 2px;
+}
+
+.border-bold {
+    border: 2px solid !important;
+}
+
+.border-bold-b {
+    border-bottom: solid 2px;
+}
+
+.border-round {
+    border-radius: 50% !important;
+}
+.border-right {
+  border-right: solid 1px var(--color__dark-smoke);
+
+}
+
+.radio-border{
+  border: 2px solid #E0E0E0;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+*[class*="--border-ru-1"] {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+*[class*="--border-r-1"] {
+    border-radius: 2px;
+}
+*[class*="--border-rl-2"] {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+*[class*="--border-r-2"] {
+    border-radius: 4px;
+}
+
+*[class*="--border-r-4"] {
+  border-radius: 8px;
+}
+
+*[class*="--border-light-gray"] {
+    border-color: var(--color__light-gray) !important;
+}
+*[class*="--border-x-dark"] {
+    border-color: var(--color__x-dark) !important;
+}
+*[class*="--border-pink"] {
+    border-color: var(--color__pink) !important;
+}
+*[class*="--border-smoke"] {
+    border-color: var(--color__smoke) !important;
+}
+*[class*="--border-silver"] {
+    border-color: var(--color__silver) !important;
+}
+*[class*="--border-medium-smoke"] {
+  border-color: var(--color__medium-smoke) !important;
+}
+*[class*="--border-dark-smoke"] {
+  border-color: var(--color__dark-smoke) !important;
+}
+*[class*="--border-prm"] {
+    border-color: var(--color__primary) !important;
+}
+*[class*="--border-white"] {
+    border-color: var(--color__white) !important;
+}

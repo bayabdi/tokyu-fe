@@ -1,0 +1,83 @@
+@import "variables-scss";
+
+@media (min-width: $breakpoint__md) {
+  .bg-header{
+    height: 676px;
+    .v-responsive__content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .bg-header__content {
+        margin-top: 0;
+        background-color: rgba($color__white, 0.68);
+        padding: 34px;
+        border-radius: 10px;
+        svg {
+          width: 337px;
+          height: 80px;
+        }
+        h2 {
+          color: var(--color__black) !important;
+          font-size: var(--font-size__large) !important;
+        }
+      }
+    }
+  }
+
+  .t-toolbar {
+    &__logo {
+      svg {
+        width: 170px!important;
+        margin-right: 10px!important;
+      }
+
+      &__postfix {
+        font-size: 16px;
+        margin-top: 20px!important;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .t-toolbar {
+    &__logo {
+      &__postfix {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint__md - 1) {
+  .t-container {
+    max-width: 100%
+  }
+  .bg-header {
+    .v-image__image {
+      background-image: url('../images/tokyu-vacations-bg-mobile.jpg');
+    }
+    &__content {
+      h2 {
+        text-shadow: 1px 1px 1px rgba($color__black, .7);
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint__x-small - 1) {
+  .logo {
+    padding: 12px 16px !important;
+    width: 100%!important;
+    margin: 0 !important;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)) !important;
+  }
+  .v-form {
+    label {
+      font-size: var(--font-size__default) !important;
+    }
+  }
+  .width-x-small {
+    width: auto !important;
+  }
+}

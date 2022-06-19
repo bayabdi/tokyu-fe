@@ -1,0 +1,17 @@
+{ 
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"],
+    }
+  },
+  "exclude": ["node_modules", "public"],
+  "typeAcquisition": {
+    "include": [
+        "jest", "babel-jest", "./jest/utils", "./jest/validate", "./cypress/support"
+    ],
+    "exclude": [
+      "mocha", "chai"
+    ]
+  }
+}

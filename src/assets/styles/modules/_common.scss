@@ -1,0 +1,224 @@
+@import "variables-scss";
+
+.bg {
+  &-white {
+    background-color: var(--color__white) !important;
+  }
+  &-white--blur {
+    background-color: rgba($color__white, .72)
+  }
+  &-silver {
+    background-color: var(--color__silver) !important;
+  }
+  &-smoke {
+    background-color: var(--color__smoke) !important;
+  }
+  &-medium-smoke {
+    background-color: var(--color__medium-smoke) !important;
+  }
+  &-light-smoke {
+    background-color: var(--color__light-smoke) !important;
+  }
+  &-secondary {
+    background-color: var(--color__secondary) !important;
+  }
+  &-primary {
+    background-color: var(--color__primary) !important;
+  }
+  &-tertiary {
+    background-color: var(--color__tertiary) !important;
+  }
+  &-gray--light {
+    background-color: var(--color__light-gray) !important;
+  }
+  &-gray-x-light {
+    background-color: var(--color__x-light-gray) !important;
+  }
+  &-red {
+    background-color: var(--color__dark-red) !important;
+  }
+  &-dark-red {
+    background-color: var(--color__dark-red) !important;
+  }
+  &-orange {
+    background-color: var(--color__orange) !important;
+  }
+  &-yellow {
+    background-color: var(--color__yellow) !important;
+  }
+  &-white-blue {
+    background-color: var(--color__white-blue) !important;
+  }
+  &-empress-gray {
+    background-color: var(--color__empress-gray) !important; ;
+  }
+  &-pink {
+    background-color: var(--color__pink) !important; ;
+  }
+  &-black {
+    background-color: var(--color__black) !important; ;
+  }
+
+  &--b-red {
+    background-color: var(--color__bright-red) !important; ;
+  }
+
+
+
+  &-light-primary {
+    background-color: var(--color__light-primary) !important; ;
+  }
+  &-light-yellow {
+    background-color: var(--color__light-yellow) !important; ;
+  }
+  &-light-blue {
+    background-color: var(--color__light-blue) !important; ;
+  }
+
+}
+.hover {
+  &-secondary {
+    transition: .2s;
+
+    &:hover {
+      background-color: var(--color__secondary) !important;
+      color: var(--color__white) !important;
+    }
+  }
+}
+
+.rounded{
+  &-4 {
+    border-radius: 4px;
+  }
+  &-10 {
+    border-radius: 10px;
+  }
+  &-13 {
+    border-radius: 13px;
+  }
+  &-40 {
+    border-radius: 40px;
+  }
+}
+
+.w {
+  &-100 {
+    width: 100% !important;
+  }
+  &-80 {
+    width: 80% !important;
+  }
+  &-70 {
+    width: 70% !important;
+  }
+  &-60 {
+    width: 60% !important;
+  }
+  &-50 {
+    width: 50% !important;
+  }
+}
+
+.p {
+  &-relative {
+    position: relative !important;
+  }
+}
+
+// @for $i from 1 through 10 {
+//   .z-index--#{$i} {
+//     z-index: #{$i};
+//   }
+// }
+
+.urgent-info {
+
+  &__item {
+    background-color: rgba($color__red-bright, .75)
+  }
+}
+
+// position
+.pos {
+  &-absolute {
+    position: absolute !important;
+  }
+  &-relative {
+    position: relative !important;
+  }
+  &-static {
+    position: static !important;
+  }
+  &-static {
+    position: static !important;
+  }
+  &-sticky {
+  position: sticky;
+  bottom: 0;
+}
+}
+
+.top {
+  &-0 {
+    top: 0;
+  }
+  &-10 {
+    top: 10%;
+  }
+  &-20 {
+    top: 20%;
+  }
+  &-30 {
+    top: 30%;
+  }
+  &-50 {
+    top: 50%
+  }
+}
+.bottom {
+  &-0 {
+    bottom: 0;
+  }
+  &-10 {
+    bottom: 10%;
+  }
+  &-20 {
+    bottom: 20%;
+  }
+  &-50 {
+    bottom: 50%
+  }
+}
+.left {
+  &-0 {
+    left: 0;
+  }
+  &-10 {
+    left: 10%;
+  }
+  &-20 {
+    left: 20%;
+  }
+  &-50 {
+    left: 50%
+  }
+}
+.right {
+  &-0 {
+    right: 0;
+  }
+  &-10 {
+    right: 10%;
+  }
+  &-20 {
+    right: 20%;
+  }
+  &-50 {
+    right: 50%
+  }
+}
+
+.block-pointer {
+  cursor: pointer;
+}

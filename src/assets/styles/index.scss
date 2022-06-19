@@ -1,0 +1,47 @@
+@import './modules/variables-scss';
+@import './modules/variables-root';
+@import './modules/mixins';
+@import './modules/animations';
+@import './modules/default';
+@import './modules/typography';
+@import './modules/layout';
+@import './modules/forms';
+@import './modules/buttons';
+@import './modules/carousels';
+@import './modules/common';
+@import './modules/responsive';
+@import './modules/borders';
+
+
+.real-anchor {
+  text-decoration: underline;
+}
+
+.week-day-col {
+  width: 14.28% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Hides arrow spinner for number inputs
+.no-input-arrow {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button,
+  input[type=number] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+  }
+}
+
+.no-break {
+  display: inline-block;
+}

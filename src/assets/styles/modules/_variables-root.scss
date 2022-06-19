@@ -1,0 +1,75 @@
+:root {
+  // -------- Width -------------
+  --width__screen: 1371px;
+  --width__company-info: 261px;
+
+  // -------- Height ------------
+  --height__header: 73px;
+
+  // -------- Font-size ---------
+  --font-size__extra: 50px;
+  --font-size__m-max: 45px;
+  --font-size__max: 40px;
+  --font-size__x-huge: 37px;
+  --font-size__m-huge: 35px;
+  --font-size__huge: 30px;
+  --font-size__x-large: 28px;
+  --font-size__m-large: 27px;
+  --font-size__large: 25px;
+  --font-size__x-heading: 23px;
+  --font-size__m-heading: 22px;
+  --font-size__heading: 20px;
+  --font-size__title: 18px;
+  --font-size__sub-title: 17px;
+  --font-size__medium: 16px;
+  --font-size__normal: 15px;
+  --font-size__default: 14px;
+  --font-size__small: 12px;
+  --font-size__x-small: 11px;
+
+  // -------- Font-weight -------  !!!! => From google-fonts (import in index.html)
+  --font-weight__light: 300;
+  --font-weight__regular: 400;
+  --font-weight__medium: 500;
+  --font-weight__bold: 700;
+
+  // -------- Color --------------
+  --color__tertiary: #013157;
+  --color__primary: #004F8B;
+  --color__secondary: #008FE1;
+  --color__white-blue:#009CE6;
+  --color__light-blue: #BED3E1;
+  --color__light-primary: #C0EAFD;
+  --color__turquoise: #C1E3FE;
+  --color__black: #000000;
+  --color__black-gray: #37373F;
+   --color__x-dark: #37373f;
+  --color__dark: #333333;
+  --color__dark-gray: #424242;
+  --color__medium-gray: #535353;
+  --color__gray: #575757;
+  --color__granite-gray: #616161;
+  --color__light-gray: #707070;
+  --color__empress-gray:#757575;
+  --color__x-light-gray: #B3B3B3;
+  --color__b5-gray: #b5b5b5;
+  --color__dark-smoke: #aaaaaa;
+  --color__light-smoke: #D0D0D0;
+  --color__medium-smoke: #DDDFE3;
+  --color__smoke: #E0E0E0;
+  --color__silver: #EEEEEE;
+  --color__white: #ffffff;
+  --color__pink: #F56476;
+  --color__red: #FF5252;
+  --color__ue-red: #B90404;
+  --color__dark-red: #AE2826;
+  --color__super-dark-red: #751d1b;
+  --color__bright-red: #ba0005;
+  --color__light-yellow: #FFE8B7;
+  --color__yellow: #FFD272;
+  --color__dark-orange: #FF5800;
+  --color__fda-yellow: #FDAC2A;
+  --color__dark-yellow: #B58D07;
+  --color__orange: #E28E09;
+  --color__mine_shaft:#343434;
+}

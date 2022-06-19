@@ -1,0 +1,54 @@
+body .v-application {
+  .primary--text {
+    color: var(--color__primary) !important;
+    caret-color: var(--color__primary)!important;
+  }
+  .primary {
+    background-color: var(--color__primary)!important;
+    border-color: var(--color__primary)!important;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.v-form {
+  label {
+    font-size: var(--font-size__medium) !important;
+    font-weight: var(--font-weight__regular) !important;
+  }
+}
+
+.v-btn{
+  box-shadow: none !important;
+  &.v-size--x-large {
+    //min-height: 57px !important;
+    //max-width: 317px !important;
+  }
+}
+
+.v-text-field {
+  * {
+    box-shadow: none !important;
+  }
+  .v-input__slot {
+    border-radius: 10px !important;
+    border: 2px solid var(--color__smoke) !important;
+    min-height: 62px !important;
+  }
+  &.v-select {
+    .v-input__slot {
+      padding-right: 0 !important;
+      .v-icon:not(.error--text) {
+        color: var(--color__primary) !important;
+      }
+    }
+  }
+}
+
+.v-overlay--active {
+  .v-overlay__scrim {
+    opacity: .9 !important
+  }
+}
